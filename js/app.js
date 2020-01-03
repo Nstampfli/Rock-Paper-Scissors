@@ -84,12 +84,12 @@ const game = () => {
     if (playerChoice === "paper") {
       if (computerChoice === "rock") {
         winner.textContent = "Player Wins";
-        cScore++;
+        pScore++;
         updateScore();
         return;
       } else {
         winner.textContent = "Computer Wins";
-        pScore++;
+        cScore++;
         updateScore();
         return;
       }
@@ -98,12 +98,12 @@ const game = () => {
     if (playerChoice === "scissors") {
       if (computerChoice === "paper") {
         winner.textContent = "Player Wins";
-        cScore++;
+        pScore++;
         updateScore();
         return;
       } else {
         winner.textContent = "Computer Wins";
-        pScore++;
+        cScore++;
         updateScore();
         return;
       }
