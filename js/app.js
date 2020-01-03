@@ -42,10 +42,10 @@ const game = () => {
           //Update Images with Delay
           playerHand.src = `./img/${this.textContent}.png`;
           computerHand.src = `./img/${computerChoice}.png`;
-        }, 2000);
+        }, 1400);
         //Animation Shake
-        playerHand.style.animation = "shakePlayer 2s ease";
-        computerHand.style.animation = "shakeComputer 2s ease";
+        playerHand.style.animation = "shakePlayer 1.5s ease";
+        computerHand.style.animation = "shakeComputer 1.5s ease";
       });
     });
   };

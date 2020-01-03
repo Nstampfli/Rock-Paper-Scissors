@@ -90,22 +90,16 @@ div.fadeIn {
   0% {
     transform: rotateY(180deg) translateY(0px);
   }
-  15% {
+  17% {
     transform: rotateY(180deg) translateY(-50px);
   }
-  25% {
+  34% {
     transform: rotateY(180deg) translateY(0px);
   }
-  35% {
+  51% {
     transform: rotateY(180deg) translateY(-50px);
   }
-  50% {
-    transform: rotateY(180deg) translateY(0px);
-  }
-  65% {
-    transform: rotateY(180deg) translateY(-50px);
-  }
-  75% {
+  68% {
     transform: rotateY(180deg) translateY(0px);
   }
   85% {
@@ -120,22 +114,16 @@ div.fadeIn {
   0% {
     transform: translateY(0px);
   }
-  15% {
+  17% {
     transform: translateY(-50px);
   }
-  25% {
+  34% {
     transform: translateY(0px);
   }
-  35% {
+  51% {
     transform: translateY(-50px);
   }
-  50% {
-    transform: translateY(0px);
-  }
-  65% {
-    transform: translateY(-50px);
-  }
-  75% {
+  68% {
     transform: translateY(0px);
   }
   85% {
